@@ -21,3 +21,5 @@ npm install
 ```bash
 npm run start
 ```
+
+The client should load locally with live-reloading support. Usually it is http://localhost:10001
