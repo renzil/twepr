@@ -1,0 +1,35 @@
+{
+  "name": "twepr",
+  "version": "1.0.0",
+  "description": "Twepr website",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf dist && rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzil/twepr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renzil/twepr/issues"
+  },
+  "homepage": "https://github.com/renzil/twepr#readme",
+  "dependencies": {
+    "js-cookie": "^3.0.1",
+    "pizzly-js": "^0.2.8"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "dotenv": "^16.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.75.7",
+    "rollup-plugin-copy-watch": "^0.0.1",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.0"
+  }
+}
